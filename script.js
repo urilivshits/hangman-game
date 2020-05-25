@@ -30,7 +30,7 @@ while (remainingLetters > 0 && k < 10) {
     
     alert("This word has " + word.length + " letters: " + answerArray.join(" ") + " and you hove only " + p + " tries remaining...");
     //get a guess from the player
-    var guess = prompt("Whom do we feed?").toLowerCase();
+    var guess = prompt("Guess a letter, or click Cancel to stop playing").toLowerCase();
     //stop game if "Cancel" pressed
     if (guess === null) { 
         break;
