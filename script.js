@@ -22,13 +22,13 @@ var remainingLetters = word.length;
 
 //the game loop
 var k=0;
-while (remainingLetters > 0 && k < 10) {
-    var p = (10 - k);
+while (remainingLetters > 0 && k < 6) {
+    var p = (6 - k);
     k++;
     
     //show the player his progress
     
-    alert("This word has " + word.length + " letters:   " + answerArray.join(" ") + "   and you hove only " + p + " tries remaining.");
+    alert("This word has " + word.length + " letters:   " + answerArray.join(" ") + "   and you have only " + p + " tries remaining.");
     //get a guess from the player
     var guess = prompt("Guess a letter, or click Cancel to stop playing").toLowerCase();
     //stop game if "Cancel" pressed
