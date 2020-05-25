@@ -1,6 +1,6 @@
  //create an array of words
 var words = ["cat", "dog", "bird", "putin"]; 
-var description = ["Animals: whom do we feed?", "Animals: whos shit the crazy neighbor brings?", "Animals: whom do I hate?", "Politics: who is huilo?"];
+var description = ["Animals: whom do we feed?", "Animals: who's shit the crazy neighbor brings?", "Animals: whom do I hate?", "Politics: who is huilo?"];
 //pick a random word
 var word = words[Math.floor(Math.random()*words.length)]; 
 //set up the answer array
@@ -28,7 +28,7 @@ while (remainingLetters > 0 && k < 10) {
     
     //show the player his progress
     
-    alert("This word has " + word.length + " letters: " + answerArray.join(" ") + " and you hove only " + p + " tries remaining...");
+    alert("This word has " + word.length + " letters:   " + answerArray.join(" ") + "   and you hove only " + p + " tries remaining.");
     //get a guess from the player
     var guess = prompt("Guess a letter, or click Cancel to stop playing").toLowerCase();
     //stop game if "Cancel" pressed
