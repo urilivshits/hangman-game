@@ -57,4 +57,4 @@ while (remainingLetters > 0 && k < 10) {
 //show the answer and then congradulate the player
 alert(answerArray.join(" "));
 if (k < 10) {alert("Good job! The answer was " + word + "!!!");}
-else if (k >= 10) {alert("Oops! Looks like you spent all the " + k + " and lost!");}
+else if (k >= 10) {alert("Oops! Looks like you spent all the " + k + " tries and lost!");}
