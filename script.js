@@ -23,6 +23,7 @@ var remainingLetters = word.length;
 //the game loop
 var k=0;
 while (remainingLetters > 0 && k < 6) {
+    
     var p = (6 - k);
     k++;
     
@@ -56,5 +57,5 @@ while (remainingLetters > 0 && k < 6) {
 }
 //show the answer and then congradulate the player
 alert(answerArray.join(" "));
-if (k < 10) {alert("Good job! The answer was " + word + "!!!");}
-else if (k >= 10) {alert("Oops! Looks like you spent all the " + k + " tries and lost!");}
+if (k < 6) {alert("Good job! The answer was " + word + "!!!");}
+else if (k >= 6) {alert("Oops! Looks like you spent all the " + k + " tries and lost!");}
